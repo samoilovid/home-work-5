@@ -7,10 +7,10 @@ public class TaxiService {
 
         int value = 1000;
             if (order> value){
-            int percentageDiscount = 5;
-            int maxDiscount = 100;
-            int hundred = 100;
-            int discount = order /hundred *percentageDiscount;
+                int percentageDiscount = 5;
+                int maxDiscount = 100;
+                int hundred = 100;
+                int discount = order /hundred *percentageDiscount;
             if (discount>maxDiscount) {
                 discount =maxDiscount;
             }
